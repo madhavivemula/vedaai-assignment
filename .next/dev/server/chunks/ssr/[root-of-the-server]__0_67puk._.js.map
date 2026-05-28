@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":["file:///C:/VedaAI/vedaai-assignment/src/app/favicon.ico.mjs%20%28structured%20image%20object%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 256, height: 256 }\n"],"names":["src","width","height"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,0IAAG;IAAEC,OAAO;IAAKC,QAAQ;AAAI"}},
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///C:/VedaAI/vedaai-assignment/src/layouts/MainLayout.tsx"],"sourcesContent":["import React from \"react\";\r\n\r\ninterface Props {\r\n  children: React.ReactNode;\r\n}\r\n\r\nexport default function MainLayout({ children }: Props) {\r\n  return <div className=\"bg-[#f5f5f5] min-h-screen\">{children}</div>;\r\n}\r\n"],"names":["MainLayout","children","className"],"mappings":";;;;;;AAMe,SAASA,WAAW,EAAEC,QAAQ,EAAS;IACpD,qBAAO,8OAAC;QAAIC,WAAU;kBAA6BD;;;;;;AACrD"}},
+    {"offset": {"line": 48, "column": 0}, "map": {"version":3,"sources":["file:///C:/VedaAI/vedaai-assignment/src/app/page.tsx"],"sourcesContent":["import MainLayout from \"@/layouts/MainLayout\";\n\nexport default function Home() {\n  return (\n    <MainLayout>\n      <div className=\"h-screen flex items-center justify-center\">\n        <h1 className=\"text-6xl font-bold\">VedaAI</h1>\n      </div>\n    </MainLayout>\n  );\n}\n"],"names":["Home","className"],"mappings":";;;;;AAAA;;;AAEe,SAASA;IACtB,qBACE,8OAAC,wIAAU;kBACT,cAAA,8OAAC;YAAIC,WAAU;sBACb,cAAA,8OAAC;gBAAGA,WAAU;0BAAqB;;;;;;;;;;;;;;;;AAI3C"}}]
+}
